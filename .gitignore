@@ -1,0 +1,7 @@
+__pycache__/
+test.*
+.DS_Store
+fichiers_telecharge/
+.idea/
+home/vue/img/age 3.jpg
+.env

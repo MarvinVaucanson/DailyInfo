@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  animation: fadeInAnimation ease 6s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+  
+.logo {
+  max-width: 40%;
+}
+
+.typewriter{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.typewriter h1 {
+  animation-delay: 6s;
+  overflow: hidden; 
+  border-right: .15em solid rgb(255, 255, 255); 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: typing 2.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.button{
+  position: absolute;
+  top: 57%;
+  left: 43%;
+  background-color: #ffffff;
+  border: 2px solid #202020;
+  border-radius: 30px;
+  box-shadow: #131313 4px 4px 0 0;
+  color: #000000;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  animation: fadeInAnimation2 ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.button:hover {
+  background-color: #fff;
+}
+
+.button:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(255, 255, 255); }
+}
+    
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.35;
+    }
+}
+
+@keyframes fadeInAnimation2 {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(255, 255, 255); }
+  }
+
+  @font-face {
+    font-family: 'MedulaOne';
+    src: url('font/MedulaOne-Regular.ttf');
+}
