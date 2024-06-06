@@ -16,7 +16,7 @@ Bienvenue dans Daily Info ! Un jour une mission. Malheureusement de nombreux aut
 Une magnifique video de présentation [youtube](https://youtu.be/Shcp3Ui-KUo)
 
 ## Installation
-Rien pour le moment mais dans un futur proche il suffit de se rendre sur : [site web](https://www.youtube.com/watch?v=oxzEdm29JLw) ou inviter le bot discord : [url du bot](https://discord.com/api/oauth2/authorize?client_id=1164841675278008331&permissions=8&scope=bot)
+Le site est actuellement fermée. Voici donc une vidéo de tortue : [site web](https://www.youtube.com/watch?v=oxzEdm29JLw) ou inviter le bot discord : [url du bot](https://discord.com/api/oauth2/authorize?client_id=1164841675278008331&permissions=8&scope=bot)
 
 ## Usage
 Utilisez le bot discord pour encore plus de fun
@@ -36,7 +36,7 @@ Mise à jour à venir :
 - Encore plus de personnalisation
 
 ## Licence
-Projet devellopé dans le cadre de l'IUT Lyon 1 en SAE. A ce titre servez vous dans le code surtout si c'est pour apprendre. Cependant la base de donnée reste notre intégral propriété. Apres un bon agent secret sait parfois contourner les règles ;) 
+MIT - Projet devellopé dans le cadre de l'IUT Lyon 1 en SAE. A ce titre servez vous dans le code surtout si c'est pour apprendre.
 
 ## Auteur et remerciement
 Emmanuel Ardoin 
@@ -51,9 +51,8 @@ Le G2S3
 Berth pour sa présence
 
 Pas merci à : 
-PHP car en vrai des fois il fait n'imp
+WampServeur pour les bugs de versions
 
 ## Project status
-En cours de dévellopement
-
+Fini - Fermée
 ATTENTION CE README VA S'AUTO DETRUIRE !!!
